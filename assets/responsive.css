@@ -43,17 +43,26 @@
         height: 100vh;
     }
 
+    header{
+        padding: 7vh 10vw;
+    }
+
     .texts{
         width: 50%;
         margin-top: 5vh;
-        padding: 7vh 5vw 0 7vw;
+        padding: 7vh 3vw 0 10vw;
 
+    }
+
+    h1{
+        text-align: start;
     }
     
     .main-para{
         font-size: 1.1rem;
         line-height: 1.8rem;
         padding: 0;
+        text-align: start;
     }
     
     .btn{
@@ -64,14 +73,14 @@
         margin-bottom: 5vh;
         width: 30vw;
     }
+
+    .div-btn{
+        align-self: flex-start;
+    }
     
     .btn input{
         padding: 14px 45px;
         width: 100%;
-        border-radius: 20px;
-        border: 1px solid hsl(0, 36%, 70%);
-        color: hsl(0, 93%, 68%);
-        font-weight: 600;
         font-size: 13px;
         letter-spacing: 1.2px;
     }
